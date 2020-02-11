@@ -2,7 +2,7 @@
 #include <catch.hpp>
 #include "solution.h"
 
-TEST_CASE("removeDuplicates")
+TEST_CASE("26. 删除排序数组中的重复项", "[removeDuplicates]")
 {
     vector<int> nums1 = {1, 1, 2};
     vector<int> nums2 = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
