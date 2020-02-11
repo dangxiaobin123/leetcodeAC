@@ -14,5 +14,4 @@ TEST_CASE("146. LRU缓存机制", "[LRUCache]")
     REQUIRE(cache->get(1)==-1);
     REQUIRE(cache->get(3)==3);
     REQUIRE(cache->get(4)==4);
-
 }
