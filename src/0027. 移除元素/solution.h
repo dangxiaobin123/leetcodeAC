@@ -10,4 +10,12 @@ public:
         }
         return cur;
     }
+
+    int removeEleOfVector(vector<int>& nums, int val) {
+        auto cur = nums.begin();
+        for(auto it = nums.begin(); it!=nums.end(); it++) {
+            if(*it!=val) *cur++ = *it;
+        }
+        return distance(nums.begin(), cur);
+    }
 };
