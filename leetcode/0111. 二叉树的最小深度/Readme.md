@@ -1,4 +1,4 @@
-# 111. 二叉树的最小深度
+# [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
 
  给定一个二叉树，找出其最小深度。最小深度是从根节点到最近叶子节点的最短路径上的节点数量。
 
@@ -15,3 +15,5 @@
       15   7
 
 返回它的最小深度  2.
+
+[Solution](solution.h)
