@@ -2,7 +2,7 @@
 #include <catch.hpp>
 #include "solution.h"
 
-TEST_CASE("112. 路径总和", "[hasPathSum]")
+TEST_CASE("113. 路径总和2", "[pathSum]")
 {
     SECTION("给定二叉树 []") {
         TreeNode root(5);
@@ -25,6 +25,10 @@ TEST_CASE("112. 路径总和", "[hasPathSum]")
         node5.right = &node8;
 
         Solution s;
-        REQUIRE(s.hasPathSum(&root, 22) == true);
+        vector<vector<int>> res = {
+            {5, 4, 11, 2},
+            {5, 8, 4, 5}
+        };
+        REQUIRE(s.pathSum(&root, 22) == res);
     }
 }
