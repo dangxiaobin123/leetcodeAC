@@ -19,7 +19,7 @@ type question struct {
 	a ans
 }
 
-func Test_OK(t *testing.T) {
+func Test_0001(t *testing.T) {
 	ast := assert.New(t)
 
 	qs := []question{
