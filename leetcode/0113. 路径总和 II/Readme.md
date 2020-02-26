@@ -22,4 +22,4 @@
             [5,8,4,5]
         ]
 
-[Solution](solution.h)
+[Solution](cpp/solution.h)

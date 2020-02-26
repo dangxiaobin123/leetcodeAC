@@ -35,4 +35,4 @@ TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
 
 }
 ```
-[Solution](solution.h)
+[Solution](cpp/solution.h)

@@ -22,4 +22,4 @@
 
     你不需要考虑数组中超出新长度后面的元素。
 
-[Solution](solution.h)
+[Solution](cpp/solution.h)

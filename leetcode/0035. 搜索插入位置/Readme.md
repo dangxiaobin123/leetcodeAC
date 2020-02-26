@@ -26,4 +26,4 @@
     输入: [1,3,5,6], 0
     输出: 0
 
-[Solution](solution.h)
+[Solution](cpp/solution.h)

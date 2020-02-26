@@ -16,4 +16,4 @@
 
 返回它的最小深度  2.
 
-[Solution](solution.h)
+[Solution](cpp/solution.h)

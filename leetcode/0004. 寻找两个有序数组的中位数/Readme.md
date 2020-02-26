@@ -21,4 +21,4 @@
 
     则中位数是 (2 + 3)/2 = 2.5
 
-[Solution](solution.h)
+[Solution](cpp/solution.h)

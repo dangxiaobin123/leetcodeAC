@@ -24,4 +24,4 @@
              \
               6
 
-[Solution](solution.h)
+[Solution](cpp/solution.h)
