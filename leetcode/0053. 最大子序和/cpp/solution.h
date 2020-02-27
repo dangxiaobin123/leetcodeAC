@@ -10,12 +10,11 @@ public:
     int maxSubArray(vector<int>& nums) {
         if(nums.empty()) return 0;
         int n = nums.size();
-        vector<int> dp(n, 0);
-        dp[0] = nums[0];
-        int res = nums[0];// 初值给nums[0];
-        for(int i = 1; i<n; i++) {
-            dp[i] = max(dp[i-1]+nums[i], nums[i]);
-            res = max(dp[i], res);
+        int sum = 0;
+        int res = INT_MIN;// 初值给nums[0];
+        for(auto n:nums) {
+            sum = max(sum+n, n);
+            res = max(sum, res);
         }
         return res;
     }
